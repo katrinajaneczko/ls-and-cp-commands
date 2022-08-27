@@ -1,5 +1,4 @@
-# Project-0-S22
-# Project 0 Spring 2022
+# Project 0 Spring 2022 Project Description
 # Unix Utilities
 In this first project of CIS3207, I have built 2 UNIX utilities, simple versions of commonly used commands *ls* and *cp*. They are called, respectively, *tuls* and *tucp* to avoid confusion.
 
