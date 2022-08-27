@@ -39,7 +39,7 @@ This will make a single **executable binary** called *tuls* which can then be ru
 
 In this process, I learned how to use a few library routines from the C standard library (often called *libc*) to implement the source code for this program, which we’ll assume is in a file called *tuls.c*. 
 
-**Details**
+### **Details**
 * The program *tuls* can be invoked with zero or one argument on the command line; with 1 argument, recursively print the entries in the directories in the local directory as well as the files in the local directry.
 * In all non-error cases, *tuls* exits with status code 0, usually by returning a 0 from *main()* (or by calling *exit(0)*).
 * If /arguments/ are specified on the command line, *tuls* just prints the names of the entries (files and directories) in the current directory. 
@@ -53,7 +53,7 @@ The following are the possible command usages:
 *tucp* Sourcefile Directory 
 *tucp* Sourcefile-1 Sourcefile-2 Sourcefile-3 Sourcefile-n Directory 
 
-# Details
+### **Details**
 * If the *tucp* command contains two file names, then it copies the contents of the 1st file to the 2nd file. If the 2nd file doesn’t exist, then it first creates a file with the specified name and the content of the first file is copied to it. But if the second file already exists, then it is simply overwritten without any warning. 
 * If the *tucp* command has one or more arguments, specifying source file names and following those arguments, an argument specifying a directory name, then the command copies each source file to the destination directory with the same source file name. The destination file is created if did not exist, or overwritten if it already existed.
 
